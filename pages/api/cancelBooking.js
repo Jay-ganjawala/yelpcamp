@@ -1,6 +1,6 @@
 import User from '../../models/User'
 const stripe = require('stripe')(
-  'sk_test_51MdFk4SGiitP8hRj9ukgEycqW5nyGJ1MXeezVT8782VREdpqyClZfXkG7jJWPqsNl1ZxZ3Z0Lst8zqBwyEU65RSa00YtyBJgzV'
+  'sk_test_51Ro48BDCatdU0r1RoEzMo8zHFLNyKmu541DL7wCqWjyVg3qqjCUsVWc3QKaoMcOgJTBwFeMLXeX2aONFK1euMrXU00Zwzdzn3U'
 )
 
 export default async function handler(req, res) {
