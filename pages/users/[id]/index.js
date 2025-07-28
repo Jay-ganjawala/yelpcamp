@@ -311,7 +311,7 @@ const Profile = ({ user, camps, allCamps }) => {
     },
     {
       title: 'reviews',
-      component: <ReviewsSection camps={camps} user={user} session={session} />,
+      component: <ReviewsSection camps={allCamps} user={user} session={session} />,
       restricted: false,
     },
     {
